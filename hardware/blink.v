@@ -13,7 +13,7 @@ module blink (
 
   rst_gen rst_inst (
       .clk_i(clk_s),
-      .rst_i(arst_i),
+      .arst_i(arst_i),
       .rst_o(rst_s)
   );
 

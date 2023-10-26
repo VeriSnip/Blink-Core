@@ -1,0 +1,6 @@
+[submodule "MyVT-Tool"]
+	path = MyVT-Tool
+	url = git@github.com:MyCircuit-Hub/MyVT-Tool.git
+[submodule "MyUtils-Tool"]
+	path = MyUtils-Tool
+	url = git@github.com:MyCircuit-Hub/MyUtils-Tool.git
