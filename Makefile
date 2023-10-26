@@ -1,5 +1,5 @@
-VTbuild_DIR ?= /home/pantunes/Documents/playground/MyVT-Tool
-MyUtils_DIR ?= /home/pantunes/Documents/playground/MyUtils-Tool
+VTbuild_DIR ?= $(CURDIR)/MyVT-Tool
+MyUtils_DIR ?= $(CURDIR)/MyUtils-Tool
 
 PROJECT_NAME ?= blink
 
