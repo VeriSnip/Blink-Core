@@ -7,7 +7,7 @@ help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  build          to create a directory with the built rtl code."
 
-build: clean-all
+hardware-build:
 	python $(VTbuild_DIR)/VTbuild.py $(PROJECT_NAME)
 
 clean-all: board-clean
