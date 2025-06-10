@@ -1,1 +1,0 @@
-MyUtils-Tool/shell.nix
