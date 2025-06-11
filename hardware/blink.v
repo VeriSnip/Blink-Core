@@ -3,7 +3,7 @@ module blink (
     input  wire arst_i,
     output reg  led_o
 );
-  localparam integer MAX = 100000000;
+  localparam integer MAX = 25000000; // 1s at 25MHz
   localparam integer WIDTH = $clog2(MAX);
 
   wire rst_s;
