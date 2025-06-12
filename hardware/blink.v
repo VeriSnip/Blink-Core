@@ -23,7 +23,7 @@ module blink (
   wire             end_s = cpt_s == MAX - 1;
 
   `include "reg_blink_list.vs"  /*
-    cpt_s, WIDTH, 0, end_s | rst_s,      , cpt_next_s
-    led_o,     1, 0,         rst_s, end_s, ~led_o
+    cpt_s, WIDTH, 0, ,      , cpt_next_s
+    led_o,     1, 0, , end_s, ~led_o
     */
 endmodule
