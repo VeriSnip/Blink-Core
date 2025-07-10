@@ -1,6 +1,0 @@
-[submodule "Utils-Tool"]
-	path = Utils-Tool
-	url = git@github.com:LogicoreDesign/Utils-Tool.git
-[submodule "Open-Library"]
-	path = Open-Library
-	url = git@github.com:LogicoreDesign/Open-Library.git
